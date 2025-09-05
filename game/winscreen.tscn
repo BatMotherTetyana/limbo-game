@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvuyjyr5nh11c"]
+
+[ext_resource type="Script" path="res://winscreen.gd" id="1_45183"]
+
+[node name="Winscreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_45183")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 135.0
+offset_right = 807.0
+offset_bottom = 349.0
+text = "ВИ ВИГРАЛИ!!!!!!!!!!!!!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 282.0
+offset_right = 738.0
+offset_bottom = 375.0
+text = "Супер!"
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
