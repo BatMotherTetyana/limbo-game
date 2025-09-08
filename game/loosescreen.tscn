@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://tdyxxaj1my3h"]
 
-[ext_resource type="Script" path="res://loosescreen.gd" id="1_k7pl8"]
+[ext_resource type="Script" uid="uid://dikjqfcjwq21t" path="res://loosescreen.gd" id="1_k7pl8"]
 
 [node name="Loosescreen" type="Control"]
 layout_mode = 3
